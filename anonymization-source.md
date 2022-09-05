@@ -163,8 +163,6 @@ Anonymizing mobility data per person has been shown to be infeasible [@zang_anon
 Instead, anonymizing mobility data by carefully mixing movements of many individuals might achieve anonymity.
 Care must be taken, though, as there have been successful re-identification attacks even for such aggregated mobility data [@xu_trajectory_2017].
 
-## Problem statement
-
 Fortunately for us, the positional data we get as input is restricted to public transport stop locations.
 Also the timestamps lie between the arrival and the departure time of the vehicles for each stop.
 Both of these information types are public.
@@ -172,6 +170,8 @@ Both of these information types are public.
 In addition, the onboard counting systems send onwards only the changes in the number of objects in the vehicles and do not try to identify any individuals.
 
 So what could be individually identifying in the input data?
+
+## Problem statement
 
 Consider a rarely used bus stop X.
 On most weekdays at 11:15, outside of the rush hour, Reetta boards a bus from stop X to commute to her shift work.

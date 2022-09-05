@@ -202,8 +202,6 @@ achieve anonymity. Care must be taken, though, as there have been
 successful re-identification attacks even for such aggregated mobility
 data (Xu et al. 2017).
 
-## Problem statement
-
 Fortunately for us, the positional data we get as input is restricted to
 public transport stop locations. Also the timestamps lie between the
 arrival and the departure time of the vehicles for each stop. Both of
@@ -214,6 +212,8 @@ in the number of objects in the vehicles and do not try to identify any
 individuals.
 
 So what could be individually identifying in the input data?
+
+## Problem statement
 
 Consider a rarely used bus stop X. On most weekdays at 11:15, outside of
 the rush hour, Reetta boards a bus from stop X to commute to her shift
