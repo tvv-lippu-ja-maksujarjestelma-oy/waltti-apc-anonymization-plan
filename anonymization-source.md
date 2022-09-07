@@ -232,7 +232,7 @@ Thus we treat the random seed as a secret.
 
 ### Attack attempt: Sampling one stop
 
-If an attacker gets the anonymizer to repeatedly sample the `OccupancyStatus` value from the same headcount, they could accurately form the shape of the binomial distribution for any `OccupancyStatus` value transition for any stop.
+If an attacker gets the anonymizer to repeatedly sample the `OccupancyStatus` value derived from the same headcount, they could accurately infer the headcount from the shape of the distribution for any `OccupancyStatus` value transition for any stop.
 
 Thus we will sample the probability distribution only once for each departure from a stop or passing of a stop.
 
