@@ -215,7 +215,7 @@ For example, to look at a few headcount values of the previous table and the res
 | 7         | 20 % `EMPTY`, 80 % `MANY_SEATS_AVAILABLE`        |
 | 8         | 100 % `MANY_SEATS_AVAILABLE`                     |
 
-Here the transition interval is [4, 7] i.e. 4 values wide.
+Here the transition interval is [3, 7] i.e. 5 values wide.
 Care must be taken in choosing the transition interval.
 The wider the transition interval, the harder it becomes to guess the headcount that caused a change in `OccupancyStatus` and thus the stronger the anonymity.
 The narrower the transition interval, the more accurate and useful the `OccupancyStatus` value is.
