@@ -220,7 +220,7 @@ Care must be taken in choosing the transition interval.
 The wider the transition interval, the harder it becomes to guess the headcount that caused a change in `OccupancyStatus` and thus the stronger the anonymity.
 The narrower the transition interval, the more accurate and useful the `OccupancyStatus` value is.
 
-We will find a more rigorous description for this anonymization sketch later.
+We will write a more rigorous description for this anonymization sketch later.
 
 Let's look at some re-identification attacks a curious GTFS Realtime listener could come up with.
 
