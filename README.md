@@ -270,14 +270,14 @@ transition between `EMPTY` and `MANY_SEATS_AVAILABLE`:
 | 7         | 20 % `EMPTY`, 80 % `MANY_SEATS_AVAILABLE`        |
 | 8         | 100 % `MANY_SEATS_AVAILABLE`                     |
 
-Here the transition interval is \[4, 7\] i.e. 4 values wide. Care must
+Here the transition interval is \[3, 7\] i.e. 5 values wide. Care must
 be taken in choosing the transition interval. The wider the transition
 interval, the harder it becomes to guess the headcount that caused a
 change in `OccupancyStatus` and thus the stronger the anonymity. The
 narrower the transition interval, the more accurate and useful the
 `OccupancyStatus` value is.
 
-We will find a more rigorous description for this anonymization sketch
+We will write a more rigorous description for this anonymization sketch
 later.
 
 Let’s look at some re-identification attacks a curious GTFS Realtime
